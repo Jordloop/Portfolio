@@ -10,6 +10,7 @@ import { LandingComponent } from './landing/landing.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExperienceComponent } from './experience/experience.component';
     LandingComponent,
     ContactComponent,
     ProjectsComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,
