@@ -6,12 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  landing: boolean = true;
+  landing: boolean = false;
 
   constructor() {}
 
   landingClicked() {    
     this.landing = !this.landing;
-    // this.about = !this.about;
   }
 }
