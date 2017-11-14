@@ -34,3 +34,10 @@ More info on [Github's GitHub Pages](https://pages.github.com/ "GitHub Pages") a
 * $ ng build --prod --base-href "http://jordloop.io/Portfolio/"
 * $ ngh
 <br>
+
+### references
+* Image hosting: [cubeupload](https://cubeupload.com/)
+* Source control: [Git/GitHub](https://github.com/)
+* Reference: [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* Library: [Angular Material](https://material.angular.io/)
+* Framework: [Angular2 Doc](https://angular.io/docs)
