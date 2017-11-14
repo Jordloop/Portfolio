@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   landing: boolean = true;
-  about: boolean = false;
 
   constructor() {}
 
