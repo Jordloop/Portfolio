@@ -2,7 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTabsModule } from '@angular/material';
+import { MatTabsModule,
+         MatCardModule,
+         MatButtonModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
@@ -23,7 +25,9 @@ import { ExperienceComponent } from './experience/experience.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
