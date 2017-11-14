@@ -13,6 +13,6 @@ export class AppComponent {
 
   landingClicked() {    
     this.landing = !this.landing;
-    this.about = !this.about;
+    // this.about = !this.about;
   }
 }

@@ -1,2 +1,15 @@
 <landing (click)="landingClicked()" *ngIf="landing"></landing>
-<about *ngIf="about"></about>
+<mat-tab-group>
+    <mat-tab label="About">
+        <about></about>
+    </mat-tab>
+    <mat-tab label="Experience">
+        <experience></experience>
+    </mat-tab>
+    <mat-tab label="Projects">
+        <projects></projects>
+    </mat-tab>
+    <mat-tab label="Contact">
+        <contact></contact>
+    </mat-tab>
+</mat-tab-group>
