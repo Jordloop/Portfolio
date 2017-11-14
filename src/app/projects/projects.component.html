@@ -10,8 +10,15 @@
         This is an app that is a protfolio. You are currently using it. In fact, in order to be reading this you will have to have seen the screen I have a snapshot of above! You are pretty bonkers too! Believe it or not, I'm going to type even more works so this uninteresting text takes up more space! Can you even believe that?!
       </p>
     </mat-card-content>
-      <mat-card-actions>
-        <a href="https://jordloop.github.io/Portfolio/" mat-button>This is a button with a lot of text on it that will take you to the project this card is refering to!!</a>
-      </mat-card-actions>
+    <div class="button-container">
+      <mat-card-actions class="action-continer">
+          <form action="https://github.com/Jordloop/Portfolio">
+            <button mat-raised-button type="submit">GitHub</button>
+          </form>
+          <form action="https://jordloop.github.io/Portfolio">
+            <button mat-raised-button type="submit">Site</button>
+          </form>
+        </mat-card-actions>
+    </div>
   </mat-card>
 </div>

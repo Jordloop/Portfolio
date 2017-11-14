@@ -8,3 +8,19 @@
     margin: 15px;
     width: 600px;
 }
+
+.action-continer {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.button-container {
+    display: flex; 
+    justify-content: center;
+}
+
+button {
+    background-color: lightgray;
+}
