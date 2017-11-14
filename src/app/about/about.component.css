@@ -1,0 +1,26 @@
+.container {
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 15px;
+}
+
+.heading {
+    align-self: center;
+}
+
+img {
+    align-self: center;
+    padding: 15px;
+}
+
+.text {
+
+}
