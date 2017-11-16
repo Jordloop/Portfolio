@@ -1,14 +1,12 @@
 <div class="container">
-  <mat-card class="experience-card">
+  <mat-card class="experience-card" *ngFor="let experience of experiences">
     <mat-card-header>
-      <mat-card-title>ScatterSchool</mat-card-title>
-      <mat-card-subtitle>Intern</mat-card-subtitle>
+      <mat-card-title>{{experience.workplace}}</mat-card-title>
+      <mat-card-subtitle>{{experience.position}}</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
       <p>
-       ScatterSchool is an Angular2 web application that took advantage of Firebase's real time database to provide a place for
-      makers to colaborate, write tutorials, and build comunity. I primarially worked with the services that provided the components
-      with the required data.
+        {{experience.body}}
       </p>
     </mat-card-content>
   </mat-card>
