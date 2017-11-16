@@ -3,9 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule,
-         MatCardModule,
-         MatButtonModule,
-         MatExpansionModule } from '@angular/material';
+        MatCardModule,
+        MatButtonModule,
+        MatExpansionModule,
+        MatListModule,
+        MatIconModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
@@ -29,7 +31,9 @@ import { ExperienceComponent } from './experience/experience.component';
     MatTabsModule,
     MatCardModule,
     MatButtonModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatListModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
