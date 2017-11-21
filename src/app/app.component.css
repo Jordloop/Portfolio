@@ -3,3 +3,16 @@
     display: flex;
     justify-content: center;
 }
+
+.container {
+    height: 100%;
+}
+
+.tab-group {
+    padding: 20px;
+}
+
+.footer-component {
+    display: flex;
+
+}
