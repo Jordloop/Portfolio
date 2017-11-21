@@ -14,9 +14,9 @@ export class ProjectsComponent implements OnInit {
   }
 
   projects: Project[] = [
-    new Project('Cutthroat Caverns', 'Angular2/Firebase', "A card game.", "http://i.cubeupload.com/rThAxZ.png", "https://github.com/Jordloop/Cutthroat-Cavern-Web-App", "host"),
-    new Project('Campsite Finder', 'Angular2/Firebase', "A camp site finder.", "http://i.cubeupload.com/Bb0SI4.png", "https://github.com/Jordloop/Campsite", "host"),
-    new Project('Son of Cod', 'C#/.NET', "Some fish.", "http://u.cubeupload.com/Bompkins/ScreenShot20171113at.png", "https://github.com/Jordloop/SonOfCod", "host"),
+    new Project('Campsite Finder', 'Angular2/Firebase', "A camp site finder.", "http://u.cubeupload.com/Bompkins/campsitescreenshot.png", "https://github.com/Jordloop/Campsite", null),
+    new Project('Cutthroat Caverns', 'Angular2/Firebase', "This was a group project that myself and 3 others worked on as a final project of our Javascript course at Epicodus. ", "http://u.cubeupload.com/Bompkins/ccgameboard.png", "https://github.com/Jordloop/Cutthroat-Cavern-Web-App", null),
+    new Project('Son of Cod', 'C#/.NET', "Some fish.", "http://u.cubeupload.com/Bompkins/SonOfCodscreenshotop.png", "https://github.com/Jordloop/SonOfCod", null),
   ]
 
 }

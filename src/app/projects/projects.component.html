@@ -4,7 +4,7 @@
       <mat-card-title>{{project.title}}</mat-card-title>
       <mat-card-subtitle>{{project.subtitle}}</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image width="150" height="250" src="{{project.screenshot}}" alt="Project Screenshot">
+    <img mat-card-image width="600" height="300" src="{{project.screenshot}}" alt="Project Screenshot">
     <mat-card-content>
       <p>{{project.body}}</p>
     </mat-card-content>
@@ -13,7 +13,7 @@
           <form action="{{project.repo}}">
             <button mat-raised-button type="submit">GitHub</button>
           </form>
-          <form *ngIf="project.hosted != null" action="{{project.hosted}}">
+          <form *ngIf="project.host" action="{{project.hosted}}">
             <button mat-raised-button type="submit">Site</button>
           </form>
         </mat-card-actions>
