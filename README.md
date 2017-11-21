@@ -31,7 +31,7 @@ More info on [Github's GitHub Pages](https://pages.github.com/ "GitHub Pages") a
 
 #### initializing/updating gh-pages
 * $ npm install -g angular-cli-ghpages
-* $ ng build --prod --base-href "http://jordloop.io/Portfolio/"
+* $ ng build --prod --base-href "http://jordloop.github.io/Portfolio/"
 * $ ngh
 <br>
 
