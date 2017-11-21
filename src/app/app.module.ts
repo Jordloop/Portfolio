@@ -7,7 +7,8 @@ import { MatTabsModule,
         MatButtonModule,
         MatExpansionModule,
         MatListModule,
-        MatIconModule } from '@angular/material';
+        MatIconModule,
+        MatSnackBarModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
@@ -15,6 +16,8 @@ import { LandingComponent } from './landing/landing.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { FooterComponent } from './footer/footer.component';
+import { EmailSnackComponent } from './email-snack/email-snack.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,9 @@ import { ExperienceComponent } from './experience/experience.component';
     LandingComponent,
     ContactComponent,
     ProjectsComponent,
-    ExperienceComponent    
+    ExperienceComponent,
+    FooterComponent,
+    EmailSnackComponent    
   ],
   imports: [
     BrowserModule,
@@ -33,7 +38,8 @@ import { ExperienceComponent } from './experience/experience.component';
     MatButtonModule,
     MatExpansionModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
