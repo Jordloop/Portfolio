@@ -1,0 +1,29 @@
+.footer-container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    width: 25%;    
+    background-color: white;
+}
+
+.footer-list {
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    /* align-self: center; */
+}
+
+.footer-button {
+    margin: 100px;
+}
+
