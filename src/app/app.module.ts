@@ -17,7 +17,6 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { FooterComponent } from './footer/footer.component';
-import { EmailSnackComponent } from './email-snack/email-snack.component';
 
 @NgModule({
   declarations: [
@@ -27,9 +26,8 @@ import { EmailSnackComponent } from './email-snack/email-snack.component';
     ContactComponent,
     ProjectsComponent,
     ExperienceComponent,
-    FooterComponent,
-    EmailSnackComponent    
-  ],
+    FooterComponent
+    ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
