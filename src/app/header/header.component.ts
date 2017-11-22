@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
   openSnackBar(action: string) {
     const message = 'jordloop@gmail.com';
     this.sb.open(message, action, {
-      duration: 3000,
+      duration: 3500,
     });
   }
 }
