@@ -2,12 +2,12 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { MatSnackBar } from '@angular/material';
 
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css'],
+  selector: 'app-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class FooterComponent implements OnInit {
+export class HeaderComponent implements OnInit {
 
   constructor(public sb: MatSnackBar) { }
 
@@ -21,6 +21,4 @@ export class FooterComponent implements OnInit {
       duration: 3000,
     });
   }
-
-
 }

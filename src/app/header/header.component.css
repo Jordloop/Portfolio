@@ -1,0 +1,19 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-be;
+}
+
+.header-list {
+    display: flex;
+    justify-content: center;
+}
+
+.header-img {
+    align-self: center;
+}
