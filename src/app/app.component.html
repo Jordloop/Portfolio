@@ -1,14 +1,23 @@
 <landing (click)="landingClicked()" *ngIf="landing"></landing>
 <div class="container">
-    <app-header></app-header>
+    <app-header id="header"></app-header>
     <mat-tab-group class="tab-group" mat-stretch-tabs *ngIf="!landing">
-        <mat-tab label="About" color="primary">
+        <mat-tab>
+            <ng-template mat-tab-label>
+                <h1>About</h1>
+            </ng-template>
             <about></about>
         </mat-tab>
-        <mat-tab label="Experience">
+        <mat-tab>
+            <ng-template mat-tab-label>
+                <h1>Experience</h1>
+            </ng-template>
             <experience></experience>
         </mat-tab>
-        <mat-tab label="Projects">
+        <mat-tab>
+            <ng-template mat-tab-label>
+                <h1>Projects</h1>
+            </ng-template>
             <projects></projects>
         </mat-tab>
     </mat-tab-group>
