@@ -1,24 +1,27 @@
 <landing (click)="landingClicked()" *ngIf="landing"></landing>
 <div class="container">
-    <app-header id="header"></app-header>
-    <mat-tab-group class="tab-group" mat-stretch-tabs *ngIf="!landing">
+    <app-header id="header" *ngIf="!landing"></app-header>
+    <about></about>
+    <experience></experience>
+    <projects></projects>
+    <!-- <mat-tab-group class="tab-group" mat-stretch-tabs *ngIf="!landing">
         <mat-tab>
             <ng-template mat-tab-label>
-                <h1>About</h1>
+                <h1>ABOUT</h1>
             </ng-template>
-            <about></about>
+            <about class="tab-content"></about>
         </mat-tab>
         <mat-tab>
             <ng-template mat-tab-label>
-                <h1>Experience</h1>
+                <h1>EXPERIENCE</h1>
             </ng-template>
-            <experience></experience>
+            <experience class="tab-content"></experience>
         </mat-tab>
         <mat-tab>
             <ng-template mat-tab-label>
-                <h1>Projects</h1>
+                <h1>PROJECTS</h1>
             </ng-template>
-            <projects></projects>
+            <projects class="tab-content"></projects>
         </mat-tab>
-    </mat-tab-group>
+    </mat-tab-group> -->
 </div>
