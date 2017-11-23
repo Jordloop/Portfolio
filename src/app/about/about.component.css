@@ -1,23 +1,35 @@
 #about-container {
     width: inherit;
     height: inherit;
+    padding: 50px;
     display: flex;
     flex-direction: column;
-    background-color: tan;
+    background-color: rgb(85, 85, 85);
     justify-content: center;
-}
-
-#about-title {
-    align-self: center;
+    font-family: futura;
+    color: whitesmoke;
 }
 
 #about-content {
     align-self: center;
     display: flex;
-    justify-content: space-around;
-    width: 80%;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
+#about-text {
+    margin-left: 5%;
+}
+
+#heading-text {
+    font-size: 18pt;
+}
+
+p {
+    font-size: 14pt;
+    margin: 5px;
+    white-space: nowrap;
 }
 
 /* .container {
