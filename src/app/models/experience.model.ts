@@ -1,7 +1,7 @@
 export class Experience {
-    constructor(public workplace: string,
+    constructor(public name: string,
+                public time: string,
                 public position: string,
-                public body: string
-                ) {  }
+                public desctiption: string) {  }
 
 }
