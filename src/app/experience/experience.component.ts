@@ -14,7 +14,7 @@ export class ExperienceComponent implements OnInit {
   }
 
   experiences: Experience[] = [
-    new Experience('Flight', 'Intern', "ScatterSchool is an Angular2 web application that took advantage of Firebase's real time database to provide a place for makers to colaborate, write tutorials, and build comunity. I primarially worked with the services that provided the components with the required data."),
+    new Experience('Epicodus', 'Education', "ScatterSchool is an Angular2 web application that took advantage of Firebase's real time database to provide a place for makers to colaborate, write tutorials, and build comunity. I primarially worked with the services that provided the components with the required data."),
     new Experience('Flight', 'Intern', "ScatterSchool is an Angular2 web application that took advantage of Firebase's real time database to provide a place for makers to colaborate, write tutorials, and build comunity. I primarially worked with the services that provided the components with the required data."),
     new Experience('Flight', 'Intern', "ScatterSchool is an Angular2 web application that took advantage of Firebase's real time database to provide a place for makers to colaborate, write tutorials, and build comunity. I primarially worked with the services that provided the components with the required data.")
   ]

@@ -3,17 +3,12 @@
     justify-content: center;
 }
 
-.header-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-be;
-}
 
-.header-list {
-    display: flex;
-    justify-content: center;
-}
+
+
 
 .header-img {
+    padding-top: 45px;
+    padding-bottom: 25px;
     align-self: center;
 }
