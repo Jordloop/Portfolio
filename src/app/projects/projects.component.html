@@ -1,22 +1,9 @@
-<div class="container">
-  <mat-card *ngFor="let project of projects" class="project-card">
-    <mat-card-header>
-      <mat-card-title>{{project.title}}</mat-card-title>
-      <mat-card-subtitle>{{project.subtitle}}</mat-card-subtitle>
-    </mat-card-header>
-    <img mat-card-image width="600" height="300" src="{{project.screenshot}}" alt="Project Screenshot">
-    <mat-card-content>
-      <p>{{project.body}}</p>
-    </mat-card-content>
-    <div class="button-container">
-      <mat-card-actions class="action-continer">
-          <form action="{{project.repo}}">
-            <button mat-raised-button type="submit">GitHub</button>
-          </form>
-          <form *ngIf="project.host" action="{{project.hosted}}">
-            <button mat-raised-button type="submit">Site</button>
-          </form>
-        </mat-card-actions>
+<div id="projects-container">
+  <h1 id="projects-title">PROJECTS</h1>
+  <div id="projects-content">
+    <div *ngFor="let project of projects" class="project-card">
+      <a href="{{ project.repo }}"><img mat-card-image src="{{project.screenshot}}" alt="Project Screenshot"></a>
+      
     </div>
-  </mat-card>
+  </div>
 </div>
