@@ -1,0 +1,18 @@
+.option {
+    width: 80px;
+    height: 50px;
+    background-color: rgb(21, 21, 21);
+    color: whitesmoke;
+    margin: 1px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
