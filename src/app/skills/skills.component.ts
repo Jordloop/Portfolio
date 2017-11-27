@@ -13,4 +13,30 @@ export class SkillsComponent implements OnInit {
   ngOnInit() {
   }
 
+  skills: string[] = [
+                      "HTML/CSS", 
+                      "JavaScript", 
+                      "TypeScript", 
+                      "C#", 
+                      "AngularCLI", 
+                      "AngulaÎr2", 
+                      "AngulaÎr Material", 
+                      "Bootstrap", 
+                      "ASP.NET", 
+                      "Firebase", 
+                      "NoSql", 
+                      "MySQL", 
+                      "SQL", 
+                      "API", 
+                      "Node.js", 
+                      "NPM", 
+                      "OOP", 
+                      "Git/Github", 
+                      "MVC", 
+                      "Command Line", 
+                      "JSON", 
+                      "jQuery",
+                      "Problem Solving",
+                      "Organization"
+                    ];
 }
