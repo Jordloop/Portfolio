@@ -14,17 +14,16 @@
 }
 
 #skills-list {
-    align-self: center;
-    width: 30%;
+    /* align-self: center; */
     height: 400px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
+    align-content: center;
 }
 
 .skill-detail {
-    align-self: center;
+    /* align-self: center; */
     background-color: whitesmoke;    
     /* width: 33%; */
     margin: 15px;
