@@ -22,8 +22,8 @@
     justify-content: space-around;
 }
 
-.experience-work-title {
-     align-self: center;
+#experience-title {
+    font-size: 32pt;
 }
 
 .description {
