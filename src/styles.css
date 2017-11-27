@@ -9,12 +9,3 @@ html body {
     font-family: futura;
     background-color: whitesmoke;
 }
-
-/* .main-container {
-    margin: 50px;
-} */
-
-mat-ink-bar {
-    color: green !important;
-    background-color:green !important;
-}
