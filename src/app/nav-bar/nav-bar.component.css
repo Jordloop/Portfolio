@@ -1,6 +1,6 @@
 .option {
     width: 80px;
-    height: 50px;
+    height: 30px;
     background-color: rgb(21, 21, 21);
     color: whitesmoke;
     margin: 1px;
@@ -10,9 +10,15 @@
     cursor: pointer;
     justify-content: center;
     text-decoration: none;
+    opacity: 0.3;
+}
+
+.option:hover {
+    opacity: .9;
 }
 
 .nav-container {
     display: flex;
     justify-content: center;
+    /* flex-direction: column; */
 }
