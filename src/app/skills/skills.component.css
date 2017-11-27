@@ -4,9 +4,8 @@
     padding: 50px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(142, 142, 142);
+    background-color: whitesmoke;
     justify-content: center;
-    color: whitesmoke;
 }
 
 .skills-title {
