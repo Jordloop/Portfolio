@@ -9,7 +9,8 @@ import { MatTabsModule,
         MatExpansionModule,
         MatListModule,
         MatIconModule,
-        MatSnackBarModule } from '@angular/material';
+        MatSnackBarModule,
+        MatChipsModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
@@ -41,7 +42,8 @@ import { SkillsComponent } from './skills/skills.component';
     MatExpansionModule,
     MatListModule,
     MatIconModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
