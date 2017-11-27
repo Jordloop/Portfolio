@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { ScrollToModule } from 'ng2-scroll-to';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule,
         MatCardModule,
@@ -16,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { HeaderComponent } from './header/header.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -24,10 +26,12 @@ import { HeaderComponent } from './header/header.component';
     ContactComponent,
     ProjectsComponent,
     ExperienceComponent,
-    HeaderComponent
+    HeaderComponent,
+    NavBarComponent
     ],
   imports: [
     BrowserModule,
+    ScrollToModule.forRoot(),
     BrowserAnimationsModule,
     MatTabsModule,
     MatCardModule,
