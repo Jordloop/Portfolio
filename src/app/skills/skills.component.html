@@ -1,3 +1,8 @@
-<p>
-  skills works!
-</p>
+<div id="skills-container">
+  <h1 class="skills-title">Skills</h1>
+  <div id="skills-list">
+    <mat-chip-list *ngFor="let skill of skills">
+      <mat-chip class="skill-detail">{{ skill }}</mat-chip>
+    </mat-chip-list>
+  </div>
+</div>
