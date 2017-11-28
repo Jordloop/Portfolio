@@ -23,9 +23,8 @@
 }
 
 .skill-detail {
-    /* align-self: center; */
     background-color: whitesmoke;    
-    /* width: 33%; */
+    font-size: 18pt;
     margin: 15px;
 }
 

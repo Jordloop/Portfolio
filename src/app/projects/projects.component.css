@@ -6,6 +6,7 @@
     flex-direction: column;
     background-color: rgb(142, 142, 142);
     justify-content: center;
+    color: white;
 }
 
 #projects-title {

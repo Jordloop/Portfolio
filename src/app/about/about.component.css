@@ -6,6 +6,7 @@
     flex-direction: column;
     background-color: rgb(142, 142, 142);
     justify-content: center;
+    color: whitesmoke;
 }
 
 #about-content {
@@ -20,13 +21,17 @@
     margin-left: 5%;
 }
 
+.sentence {
+    font-size: 16pt;
+}
+
 p {
-    font-size: 14pt;
+    font-size: 16pt;
     margin: 5px;
     white-space: nowrap;
 }
 
 .emphasize {
     font-weight: bold;
-    font-size: 18pt;
+    font-size: 24pt;
 }
