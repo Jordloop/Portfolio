@@ -1,6 +1,8 @@
 .header-container {
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -8,7 +10,5 @@
 
 
 .header-img {
-    padding-top: 45px;
-    padding-bottom: 25px;
     align-self: center;
 }

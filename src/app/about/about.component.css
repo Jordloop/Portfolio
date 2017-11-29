@@ -1,7 +1,7 @@
 #about-container {
     width: inherit;
-    height: inherit;
-    padding: 50px;
+    height: 100vh;
+    /* padding: 50px; */
     display: flex;
     flex-direction: column;
     background-color: rgb(142, 142, 142);
@@ -34,4 +34,8 @@ p {
 .emphasize {
     font-weight: bold;
     font-size: 24pt;
+}
+
+img {
+    box-shadow: 2px 2px 2px black;
 }
